@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+.header1{
+    display: flex;
+    width:100%;
+    background-color:#003152;
+    color:#ddd;
+font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.header2{
+    width:100%;
+}
+
+.nav-link{
+    border-left:1px solid #637692;
+    color:rgb(137, 138, 138);
+}
+.nav-link:hover{
+  color:#eff3fa;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color:#28497a;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color:rgb(137, 138, 138);
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {color: #eff3fa;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+  
+  @media screen and (max-width:320px){
+
+    .header1{
+        display: block;
+        
+    }
+
+    .head1{
+      font-size: 25px;
+    }
+    .head2{
+      font-size:15px;
+    }
+
+    
+  }

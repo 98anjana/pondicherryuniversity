@@ -1,0 +1,234 @@
+.card {
+    width: 100%;
+    height: 620px;
+  }
+  .card-title {
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  li a {
+    color: black;
+  }
+  .card-text li a:hover {
+    color: red;
+  }
+  .scrollable {
+    overflow-y: auto;
+    max-height: 520px;
+  }
+  .header2{
+    width:100%;
+  }
+  .nav-link{
+    border-left:1px solid #637692;
+    color:rgb(137, 138, 138);
+  }
+  .nav-link:hover{
+    color:#eff3fa;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color:#28497a; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color:rgb(137, 138, 138);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+   color: #eff3fa;
+  }
+  .dropdown:hover .dropdown-content {
+   display: block;
+  }
+
+  
+
+  /* .navbar_collapse{
+    display: none;
+  } */
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    
+  }
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .carousel-img{
+    height:380px;
+  }
+  .card2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:250px;
+    height:150px;
+    /* margin-left:50px; */
+    margin:35px;
+  }
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(46, 34, 34, 0.2);
+    transform: scale(1.2);
+  }
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 50px 0px;
+    background-color: #003152;
+  }
+  .footer li{
+    list-style: none;
+    color: rgb(216, 214, 214);
+    font-weight: bolder;
+    font-family: 'Merriweather', serif;
+  }
+  .head{
+    margin-bottom: 8px;
+  }
+  .footer li a{
+    font-family: 'Khand', sans-serif;
+    font-weight: lighter;
+    color: rgb(153, 151, 151);
+    text-decoration: none;
+    transition: all 0.8s ease;
+  }
+  .footer li a:hover{
+    text-decoration: underline 3px solid rgb(2, 131, 2);
+  }
+  .service , .about , .career {
+    cursor: pointer;
+  }
+  p{
+    cursor: pointer;
+    color: rgb(153, 151, 151);
+  }
+  .icon a{
+    text-align: center;
+    font-size: 23px;
+  }
+  .icon i{
+    display:inline-block;
+    color:rgb(153, 151, 151);
+    cursor: pointer;
+    margin: 0px 3px;
+  }
+  .fa-facebook , .fa-twitter , .fa-snapchat-ghost , .fa-instagram{
+    background-color:transparent;
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+  }
+  .end{
+    margin-top: 20px;
+    margin-left: 8px;
+    color: rgb(201, 206, 206);
+  }
+  .c-r{
+    border: 1px solid rgb(134, 134, 134);
+    width: 80px;
+    border-radius: 50%;
+    padding:0px 3px;
+  }
+  @media screen and (max-width:320px) {
+    .icon-bar{
+        /* top:85%;
+        position: fixed; */
+        display:none;
+   }
+    .navbar {
+        z-index: 1;
+   }
+    .nav-link{
+        border: none;
+        color:#b7c1d1;
+   }
+
+
+   .navbar-toggler{
+    background-color: #b7bfcf;
+    
+   } 
+   
+   .navbar_collapse{
+    display: block;
+  }
+
+   .carousel-img {
+    height:150px;
+   }
+
+   .footer{
+    display: block;
+    text-align: justify;
+   }
+
+   .icon{
+    margin-left: 33px;
+   }
+   .end{
+    margin-left: 8px;
+   }
+
+   .navbar_collapse{
+    display: block;
+    color: aliceblue;
+    /* background-color: #000; */
+   }
+  }
+  
+
+  @media screen and (max-width:768px) {
+
+    .carousel-img {
+      height:250px;
+     }
+
+      .icon-bar a {
+    display: none;
+   
+    
+  }
+
+  }
