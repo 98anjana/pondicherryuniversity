@@ -1,2 +1,2 @@
  Responsive Student Management system using ,
- # PHP , MYSQL , AJAX , jQuery , Bootstrap.
+ # PHP , MYSQL , AJAX , jQuery , BootstrapCSS,HTML,CSS.
